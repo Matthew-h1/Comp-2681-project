@@ -1,0 +1,665 @@
+form {
+    background-color: #90ee90; 
+    width: 100%; 
+    max-width: 800px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto; 
+    margin-right: auto; 
+   
+    
+    padding: 50px; 
+    outline: none; 
+}
+
+.contact-us-container label {
+    display: block; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+.contact-us-container input {
+    width: 600px; 
+    padding: 10px; 
+    font-size: 20px; 
+    border-radius: 1px solid black; 
+}
+
+.contact-us-container input + div,
+.contact-us-container textarea + div {
+    border: 1px solid red; 
+    display: none; 
+}
+
+.contact-us-container textarea {
+    margin-top: 20px; 
+    width: 600px; 
+    height: 200px; 
+    font-size: 20px; 
+    resize: none;
+}
+
+
+
+
+input[type='submit'], input[type='button']  {
+    margin-top: 10px; 
+    padding: 20px; 
+    max-width: 600px; 
+    width: 100%; 
+   
+    background-color: green;
+    font-size: 20px; 
+    font-weight:bold; 
+    border: none;
+    transition: all 0.5s; 
+    cursor: pointer; 
+}
+input[type="button"]:hover {
+    background-color: rgb(17, 187, 17); 
+
+}
+
+
+/*
+ .contact-us-container input {
+
+    margin: 5px; 
+    padding: 10px; 
+    width: 100%;  
+
+    border-radius: 5px; 
+    outline: none;  
+    font-size: 15px; 
+}
+
+.contact-us-container input:focus {
+    outline: 0; 
+}
+
+.container-us-container .success {
+    border-color: green; 
+}
+.contact-us-container .error {
+    border-color: red; 
+    display: none; 
+}
+
+
+
+
+textarea {
+    width: 100%; 
+    height: 200px; 
+    margin-top: 20px; 
+}
+
+button {
+    width: 200px; 
+    margin: 60px; 
+    padding: 20px; 
+     
+}
+
+*/ 
+ 
+@media only screen and  (max-width:600px)  {
+
+   
+    .contact-form-info-card {
+        flex-direction: column;
+        margin: 10px; 
+        padding: 5px; 
+       
+    }
+
+    .contact-form-info-card p {
+        font-size: 20px; 
+    }
+
+    .contract-form-title p {
+        min-width: 30px; 
+        max-width: 10px;   
+        font-size: 10px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        
+    }
+
+}
+/*Service Area */ 
+
+
+.service-area {
+    background: url(../img/map.JPG);
+    width: 100%;  
+    height:220px;  
+    background-origin: border-box;
+    background-position: center;}
+    background-repeat:no-repeat;
+    background-size: cover;
+       opacity: 0.7; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    padding: 50px 20px 0 0; 
+    
+    box-shadow: 5px 10px #90ee90; 
+    border-radius: 20%; 
+}
+
+
+
+
+.service-area h1 {
+    font-size: 80px; 
+    text-shadow: 2px 1px 2px green;
+}
+    
+.service-area-container {
+   
+    
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    padding: 10px;
+    margin: 20px; 
+  
+   
+}
+
+.service-area-container > .SA-content {
+    text-align: center;
+    margin: 50px; 
+    padding: 5px; 
+}
+
+.SA-content {
+    position: relative; 
+    
+    text-align: center; 
+    color: white; 
+    max-width: 100%; 
+}
+
+.SA-content img {
+  
+  width: 80%; 
+  height: 80%; 
+  opacity: 0.9; 
+
+  border: 3px double black; 
+}
+
+
+
+
+.SA-content img:hover {
+    opacity: 0.5; 
+    cursor: pointer;
+}
+
+.SA-content > .SA-text {
+    position:relative; 
+    text-align: center;
+    color: black; 
+}
+
+.SA-content  p {
+    position:absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+   background-color: rgba(0,0,0,0.6);
+    color: white; 
+    padding: 20px; 
+    width: auto; 
+}
+
+@media only screen and (max-width: 1024px) { 
+
+    .SA-content img {
+        max-width: 100%; 
+      
+        width: 600px; 
+        height: 280px; 
+   
+    }
+    .SA-content p {
+         font-size: 20px; 
+        padding: 10px; 
+        text-align: center;
+
+    }
+}
+@media only screen and (max-width: 800px) { 
+
+    .service-area-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .SA-content img {
+        width: 100%; 
+        max-width: 500px; 
+        height: 180px; 
+      
+      }
+    .SA-content p {
+        font-size: 15px; 
+        padding: 20px; 
+    }
+  
+  }
+
+
+@media only screen and (max-width: 450px) { 
+
+    .service-area h1 {
+        font-size: 35px; 
+    }
+
+    .service-area-container {
+        grid-template-columns: auto;
+    }
+
+    .SA-content img {
+        width: 100%; 
+        height: 100%; 
+
+
+    }
+
+    .SA-content p {
+       padding: 10px; 
+    }
+        
+
+  }
+
+/*Pricing Page */ 
+
+.pricing {
+    background: url(../img/pricing.jpg);
+    width: 100%;  
+    height:220px; 
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+       opacity: 0.7; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    
+    box-shadow: 5px 10px #90ee90; 
+    border-radius: 20%; 
+    
+}
+
+
+.pricing h1 {
+    font-size: 80px; 
+    text-shadow: 2px 1px 2px green;
+}
+
+.pricing-container {
+    
+    width: 100%;
+    margin-top: 20px;     
+    
+   
+}
+
+.pricing-table-container {
+    
+   
+    max-width: 1000px; 
+    background-color: aliceblue;
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+}
+    
+
+.pricing-table-container h3 {
+    font-size: 25px; 
+   text-align: center;
+}
+.row {
+    display: flex;
+    margin: 0 -2px; 
+    
+}
+
+.column  {
+    flex: 50%; 
+    padding: 1px; 
+}
+
+
+.pricing-table {
+    max-width: 800px; 
+    border-collapse: collapse;
+    border-spacing: 0;
+     
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+    
+}
+
+.pricing-title th {
+    background-color: lightgreen;
+    border-left: 1px solid black; 
+    border-bottom: 1px solid black; 
+}
+
+
+
+
+
+th, td {
+    text-align: center;
+    
+    padding: 10px;
+    border-left: 1px solid black; 
+    border-bottom: 1px solid black; 
+  }
+
+ 
+  tr:nth-child(even) {
+    background-color: lightgrey; 
+  }
+
+  
+
+  .table-text th + p {
+    text-align: center;
+  }
+
+  .truck-price {
+    max-width: 250px; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%; 
+    border: 1px solid black; 
+    margin-left:auto; 
+    margin-right: auto; 
+    margin-bottom: 20px;
+  
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 428px) { 
+
+    
+
+    .pricing-table {
+        max-width: 320px; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+   
+        th, td {
+           padding-left: -25px; 
+        }
+  }
+
+/*About us page */
+
+.about-us {
+    background: url(../img/about\ us.jpg);
+    width: 100%;  
+    height:220px;  
+    
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+       opacity: 0.7; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    padding-top: 35px; 
+    box-shadow: 5px 10px #90ee90; 
+    border-radius: 20%; 
+    
+}
+
+
+.about-us-text h1 {
+    
+    font-size: 60px; 
+    text-shadow: 2px 1px 2px green;
+}
+
+.about-us-container {
+    
+    background-color: aliceblue;
+    max-width: 800px; 
+        
+    width: 100%;  
+    height: 100%; 
+  
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    
+     
+    
+}
+
+
+.about-main-content > h1 {
+    font-size: 35px; 
+    background-color: lightgreen;
+    padding: 5px; 
+}
+
+ .about-main-content > p {
+    max-width: 900px; 
+    
+    line-height: 1.8rem; 
+    
+    text-align: left; 
+    font-size: 18px; 
+    padding: 10px;  
+    
+}
+
+.about-main-content > p:first-of-type {
+   color: blue; 
+}
+
+.about-main-content > p:last-of-type {
+    color: darkgreen; 
+}
+
+.about-main-content > .logo {
+    float:right; 
+    clear: both;
+    width: 30%; 
+    height: 30%; 
+    margin: 20px;
+}
+
+.about-main-content > .icon {
+    float: left; 
+    clear: both; 
+    width: 25%; 
+    height: 25%; 
+    margin: 5%; 
+}
+
+
+
+
+
+
+
+/*Mattress , furniture, appliance page */ 
+
+.service-header {
+    background: url(../img/about\ us.jpg);
+    width: 100%;  
+    height:220px;  
+    
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+       opacity: 0.7; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    padding-top: 35px; 
+    box-shadow: 5px 10px #90ee90; 
+    border-radius: 20%; 
+   
+    
+}
+
+    .service-text h1 {
+        font-size: 60px; 
+        text-shadow: 2px 1px 2px green;
+        text-align: center;
+        
+    }
+
+    .service-container {
+        
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+        margin: 20px; 
+        
+        
+    }
+
+    .service-container-image img {
+       flex: 1; 
+       margin: 50px; 
+       transform: rotate(10deg);
+       width: 80%; 
+       height: 65%; 
+        animation: myService 2s ease-in-out;
+     
+     
+    }
+       
+  @keyframes myService {     
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        trasnform: translateX(0%); 
+    }
+}
+
+       
+    
+
+    .service-container-content p {
+        max-width: 600px; 
+       flex: 1; 
+       text-align: left;
+       line-height: 1.8rem; 
+       font-size:20px; 
+       animation: myServicecontent 2s; 
+    }   
+
+    @keyframes myServicecontent {
+
+        from {
+            left: 0; 
+        }
+
+        to {
+            left: 100%; 
+        }
+    }
+
+    
+     
+
+    @media only screen and (max-width: 800px) { 
+        .service-container {
+            flex-direction: column;
+        }
+
+        .service-container-content p {
+            max-width: 700px; 
+            font-size: 15x; 
+            flex-wrap: wrap;
+            display: block;
+            text-align: left; 
+            margin: 20px; 
+        }
+    }
+   
+    @media only screen and (max-width: 428px) { 
+
+       .service-text h1 {
+            font-size:35px; 
+       }
+        .service-container {
+            flex-direction: column;
+        }
+
+        .service-container-image img {
+            width: 70%; 
+            height: 70%; 
+            text-align: center;
+        }
+
+        .service-container-content p {
+            max-width: 400px; 
+            flex-wrap: wrap;
+        }
+
+    }
+
+
+
+
+
+/*footer */ 
+
+footer {
+    
+    background-color: green;
+    width: 100%;  
+    position:absolute;    
+  
+    bottom: 0; 
+    height:80px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+ 
+    
+}
+
+
+footer p {
+    line-height: 0.6rem; 
+    text-align: right; 
+    font-size: 20px; 
+    
+}
+
