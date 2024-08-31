@@ -338,10 +338,10 @@ nav .nav-links li ul li a:focus
 nav .nav-links li ul li a:hover {    
     color: black;
    
-    
 }
 
-
+nav .nav-links li ul li a:active   {
+    color: blue; 
 }
 
 
