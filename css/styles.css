@@ -1196,34 +1196,15 @@ input[type="button"]:hover {
     background-color: rgb(17, 187, 17); 
 
 }
-
-
-/*
- .contact-us-container input {
-
-    margin: 5px; 
-    padding: 10px; 
-    width: 100%;  
-
-    border-radius: 5px; 
-    outline: none;  
-    font-size: 15px; 
-}
-
-.contact-us-container input:focus {
+input:focus {
     outline: 0; 
-}
-
-.container-us-container .success {
-    border-color: green; 
-}
-.contact-us-container .error {
-    border-color: red; 
+    border: 1px solid red; 
     display: none; 
+ }
+
+.error {
+    display: none;
 }
-
-
-*/
 
 textarea {
     width: 100%; 
