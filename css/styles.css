@@ -1179,7 +1179,10 @@ form {
 
 
 
-input[type='submit'], input[type='button']  {
+
+
+
+input[type='submit']  {
     margin-top: 10px; 
     padding: 20px; 
     max-width: 600px; 
@@ -1189,14 +1192,14 @@ input[type='submit'], input[type='button']  {
     font-size: 20px; 
     font-weight:bold; 
     border: none;
-    transition: all 0.5s; 
+    transition: opacity 0.15s; 
     cursor: pointer; 
-}
-input[type="button"]:hover {
-    background-color: rgb(17, 187, 17); 
-
+    
 }
 
+input[type="submit"]:hover {
+    background-color: rgb(17, 187, 17);   
+}
 
 
 
