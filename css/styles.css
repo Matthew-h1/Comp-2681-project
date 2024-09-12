@@ -1711,7 +1711,7 @@ th, td {
 
 /*Mattress , furniture, appliance page */ 
 
-.service-header {
+header.service-header {
     background: url(../img/about\ us.jpg);
     width: 100%;  
     height:220px;  
