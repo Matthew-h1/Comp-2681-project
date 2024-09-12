@@ -64,20 +64,6 @@ section .amax-bg {
 }
 
 
-/*header */ 
-
-header {
-    z-index: 100; 
-}
-
-header p {
-    color: black; 
-    font-size: 30px; 
-    padding: 20px; 
-}
-
-
-
 
 
 /*Navigation*/ 
