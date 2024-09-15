@@ -178,8 +178,11 @@ nav .nav-links li a {
  nav .nav-links li:hover  .fa-caret-down  {
      transform: rotate(180deg);
      color: rgb(17, 187, 17); 
-     
  }
+.cross-ref-link {
+    margin-left: 400px; 
+}
+
 
 
 
