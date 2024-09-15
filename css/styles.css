@@ -351,7 +351,7 @@ nav .nav-links li ul li a:active   {
     justify-content: center;
     align-items: center;
     position: relative;
-
+    
 }
 
 .hero .hero-text {
@@ -1037,7 +1037,8 @@ nav .nav-links li ul li a:active   {
     background: url(../img/about\ us.jpg);
     width: 100%;  
     height:220px;  
-    
+    background-clip: border-box;
+    background-origin:border-box;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -1049,6 +1050,7 @@ nav .nav-links li ul li a:active   {
     margin-bottom: 20px; 
     padding-top: 35px; 
     box-shadow: 5px 10px #90ee90; 
+    border:10px solid green;  
     border-radius: 20%; 
    
     
@@ -1327,6 +1329,7 @@ textarea#message:focus:valid {
     background: url(../img/map.JPG);
     width: 100%;  
     height:220px;  
+    background-clip: border-box; 
     background-origin: border-box;
     background-position: center;
     background-repeat:no-repeat;
@@ -1339,6 +1342,7 @@ textarea#message:focus:valid {
     padding: 50px 20px 0 0; 
     
     box-shadow: 5px 10px #90ee90; 
+    border:10px solid green;  
     border-radius: 20%; 
 }
 
@@ -1483,6 +1487,8 @@ textarea#message:focus:valid {
     background: url(../img/pricing.jpg);
     width: 100%;  
     height:220px; 
+    background-clip: border-box; 
+    background-origin: border-box;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -1491,8 +1497,8 @@ textarea#message:focus:valid {
     justify-content: center;
     align-items: center;
     margin-top: 50px; 
-    
     box-shadow: 5px 10px #90ee90; 
+    border:10px solid green;  
     border-radius: 20%; 
     
 }
@@ -1613,7 +1619,7 @@ th, td {
     background: url(../img/about\ us.jpg);
     width: 100%;  
     height:220px;  
-    
+    background-clip: border-box; 
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -1625,6 +1631,7 @@ th, td {
     margin-bottom: 20px; 
     padding-top: 35px; 
     box-shadow: 5px 10px #90ee90; 
+    border:10px solid green;  
     border-radius: 20%; 
     
 }
@@ -1706,7 +1713,7 @@ header.service-header {
     background: url(../img/about\ us.jpg);
     width: 100%;  
     height:220px;  
-    
+    background-clip: border-box;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -1719,6 +1726,7 @@ header.service-header {
     margin-bottom: 20px; 
     padding-top: 35px; 
     box-shadow: 5px 10px #90ee90; 
+    border:10px solid green;  
     border-radius: 20%; 
    
     
