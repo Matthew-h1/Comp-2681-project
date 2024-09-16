@@ -311,7 +311,13 @@ nav .nav-links li ul li:last-child {
     border: none; 
 }
 
-nav .nav-links li u li a:visited {
+nav .nav-links li u li a:link {
+    color: red
+}
+    
+    
+    
+    nav .nav-links li u li a:visited {
     color: purple; 
 }
 
