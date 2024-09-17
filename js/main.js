@@ -115,8 +115,8 @@ document.getElementById("current-time").innerHTML = "<strong>Current Date:</stro
 
 //last update 
 
-const lastUpdateDate = new Date('September 2, 2024'); 
-const currentDate = new Date('September 10, 2024');
+const lastUpdateDate = new Date('September 16, 2024'); 
+const currentDate = new Date('September 17, 2024');
 const daydiff= currentDate - lastUpdateDate;
 const lastupdateago = Math.floor(daydiff / (1000 * 60 * 60 * 24));
 
