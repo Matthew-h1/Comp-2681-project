@@ -149,21 +149,21 @@ nav .nav-links li a {
      white-space: nowrap;
      
  }
-  nav .nav-links ul li  a:link {
+  nav .nav-links ul li  ul a:link {
     color: rgb(17, 187, 17); 
  }
-nav .nav-links ul li a:visited {
+nav .nav-links ul li ul a:visited {
     color: black;  
 }
 
-nav .nav-links ul li a:focus 
- nav .nav-links ul li  a:hover {
+nav .nav-links ul li ul a:focus 
+ nav .nav-links ul li  ul a:hover {
      
    color: rgb(17, 187, 17); 
     
  }
  
- nav .nav-links ul li a:active {
+ nav .nav-links ul li ul a:active {
     color:blue; 
  }
  
