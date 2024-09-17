@@ -149,11 +149,11 @@ nav .nav-links li a {
      white-space: nowrap;
      
  }
-  nav .nav-links li u li a:link {
-    color: red; 
+  nav .nav-links li  a:link {
+    color: blue; 
  }
 nav .nav-links li a:visited {
-    color: purple; 
+    color: blue; 
 }
 
 nav .nav-links li a:focus 
