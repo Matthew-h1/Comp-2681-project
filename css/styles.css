@@ -148,13 +148,25 @@ nav .nav-links li a {
    
      white-space: nowrap;
      
-     
  }
- nav .nav-links li ul li a:hover {
+  nav .nav-links li u li a:link {
+    color: red; 
+ }
+nav .nav-links li a:visited {
+    color: purple; 
+}
+
+nav .nav-links li a:focus 
+ nav .nav-links li  a:hover {
      
    color: rgb(17, 187, 17); 
     
  }
+ 
+ nav .nav-links li a:active {
+    color:blue; 
+ }
+ 
  
 
 
